@@ -3,10 +3,14 @@ import './App.css';
 import profile from './pic.jpeg';
 import logo from './logo.png';
 import './style.css';
+import Api from './api';
+
+
 /*"{/*import './smooth-scroll.js';}"*/
 
 
 function App() {
+  
   return (
     <div className="App">
       <div>
@@ -185,8 +189,15 @@ function App() {
           </div>
         </div>
         {/*------Smooth Scroll----*/}
+
       </div>
+      <Api />
+
       </div>
+
+
+////////////////////////////////////////////////fetch data amd get key make an account here http://api.openweathermap.org
+
     );
   }
 
